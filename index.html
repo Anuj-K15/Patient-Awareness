@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Treatment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Dental Treatment: Root Canal</h1>
+    </header>
+
+    <main class="content">
+        <section class="video-section">
+            <h2>Watch the Treatment Video</h2>
+            <iframe width="560" height="315" class="video"
+                src="https://www.youtube.com/embed/81qSdFYKRcc?si=R4kg_SMKLfvBJldA" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nesciunt quo maiores quod optio!
+                Veniam quaerat doloremque minus? Iure quod temporibus dicta quam cumque? Voluptate culpa facilis dolores
+                modi saepe! <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, veniam qui ab temporibus quaerat
+                assumenda maiores neque voluptas sed repudiandae dolores iste facere ipsam doloribus voluptates quae
+                dolore fuga iusto? <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, asperiores. Aperiam dolore eligendi error
+                iste, natus blanditiis itaque ipsa quas perferendis amet voluptatibus illum quo exercitationem quae iure
+                ipsam optio! <br>
+            </p>
+        </section>
+
+        <section class="details">
+            <div class="room-card">
+                <i class="fas fa-door-open"></i>
+                <div class="room-text">
+                    <p><strong>Room Number:</strong></p>
+                    <p class="room-number">203</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="faq">
+            <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-header" onclick="toggleFaq(this)">
+                    <span><i class="fas fa-tooth"></i> How do I know if I need a root canal?</span>
+                    <button class="toggle-btn">+</button>
+                </div>
+                <p class="faq-content">Signs include severe toothache, sensitivity, swollen gums, or tooth
+                    discoloration.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header" onclick="toggleFaq(this)">
+                    <span><i class="fas fa-tools"></i> What happens during a root canal procedure?</span>
+                    <button class="toggle-btn">+</button>
+                </div>
+                <p class="faq-content">The infected pulp is removed, the tooth is cleaned and sealed, restoring
+                    functionality.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header" onclick="toggleFaq(this)">
+                    <span><i class="fas fa-shield-alt"></i> Can a root canal save my tooth?</span>
+                    <button class="toggle-btn">+</button>
+                </div>
+                <p class="faq-content">Yes, it treats the infection and saves the natural tooth.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header" onclick="toggleFaq(this)">
+                    <span><i class="fas fa-exchange-alt"></i> Are there any alternatives to a root canal?</span>
+                    <button class="toggle-btn">+</button>
+                </div>
+                <p class="faq-content">Tooth extraction is an alternative, but preserving the natural tooth is
+                    preferable.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header" onclick="toggleFaq(this)">
+                    <span><i class="fas fa-check-circle"></i> What should I do after a root canal treatment?</span>
+                    <button class="toggle-btn">+</button>
+                </div>
+                <p class="faq-content">Practice oral hygiene and avoid chewing on the treated tooth until the crown is
+                    placed.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Dental Clinic | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
